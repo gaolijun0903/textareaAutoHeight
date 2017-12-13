@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.wrapper {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 可以根据内容自动改变高度的textarea -->
+		<div class="wrapper">
+			<textarea id="textarea" rows="1" class="Input" placeholder="请输入标题" style="height: 44px;"></textarea>
+		</div>
+		<script src="js/textarea-auto-height.js"></script>
+		<script>
+			var ta = document.getElementById("textarea");
+	      	autoTextarea(ta);// 调用
+		</script>
+	</body>
+</html>
